@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/public/style/style.css">
+    <link rel="stylesheet" href="./src/public/style/style_modal.css">
+    <title>Analisis Sintactico</title>
+</head>
+<body>
+    <h1>Bienvenido al analisis Sintactico</h1>
+    <main>
+        <div class="window">
+            <h3>Introduce algun comentario</h3>
+            <textarea name="" id="input-frase" placeholder="me gusto el producto..."></textarea>
+            <button id="generar">Generar</button>
+        </div>
+    </main>
+
+
+    <div class="transparent">
+        <div class="modal">
+            <!--Contendra el resultado-->
+            <div id="resultados"></div>
+            <button id="close">Salir</button>
+        </div>
+    </div>
+
+
+    <script src="./src/public/js/Data_Base.js"></script>
+    <script src="./src/public/js/tools-script.js"></script>
+    <script src="./src/public/js/script_general.js"></script>
+</body>
+</html>
