@@ -40,6 +40,10 @@ El "Analizador de Comentario" es una aplicación diseñada para analizar comenta
 
 # Análisis de Sentimientos
 
+## COLABORADORES
+
+- Fabricio Haziel Mejia Manzilla (Tester)
+
 ## Uso
 
 1. **Ingresa un Comentario:** Escribe un comentario en el área de texto proporcionada.
