@@ -20,7 +20,9 @@ Funciones:
 */
 
 function manejadorDeEventos() {
-    document.addEventListener('DOMContentLoaded', ()=>{document.querySelector('body').addEventListener('click', listener)});
+    document.addEventListener('DOMContentLoaded', ()=>{
+        document.querySelector('body').addEventListener('click', listener)
+    });
 }
 manejadorDeEventos();
 

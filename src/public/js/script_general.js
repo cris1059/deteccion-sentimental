@@ -35,7 +35,7 @@ function main() {
         let div = dividirEnPalabras(comentario);
         detectarSentimiento(div);
     } else{
-        console.log('eSCRIBE ALGO')
+        alert("Escribe lo solicitado");
     }
 
 }
@@ -50,7 +50,8 @@ function detectarSentimiento(arr) {
     }
     if(resultados.length != 0){
         resultado = operacionAlgoritmo(resultados);
-    }else resultado = 'No hay suficiente informacion para determinar si es positivo o negativo';
+    }else resultado = `No hay suficiente informacion para determinar 
+    si es positivo o negativo`;
     writeHtml(resultado);
 }
 
