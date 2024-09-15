@@ -51,7 +51,7 @@ function detectarSentimiento(arr) {
     if(resultados.length != 0){
         resultado = operacionAlgoritmo(resultados);
     }else resultado = `No hay suficiente informacion para determinar 
-    si es positivo o negativo`;
+    si es positivo o negativo. Por lo tanto es neutral`;
     writeHtml(resultado);
 }
 
