@@ -22,9 +22,12 @@ const negacion = ['no',
                 'nada', 
                 'fea',
                 'malo',
+                'horrrendo',
+                'trabado',
                 'mal',
                 'lenta',
                 'lento',
+                'mejorar',
                 'malisimo',
                 'disgusta']; // -1
 
@@ -32,6 +35,7 @@ const positivo = ['gusto',
                 'encanto', 
                 'chido',
                 'buen',
+                'bien',
                 'bueno', 
                 'buenisimo',
                 'cool', 
@@ -45,10 +49,11 @@ const positivo = ['gusto',
                 'divertida',
                 'optimizado',
                 'optimizada',
+                'llamativo',
                 'chida']; // 1
 
 const modificador = ['pero', 
                     'sin embargo', 
-                    'y', 'tampoco']; // 2
+                    'y']; // 2
 
 
